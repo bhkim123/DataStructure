@@ -24,14 +24,22 @@ public class SkipList<E> {
     }
 
     public boolean add(E e){
+        add(size, e);
+        return true;
+    }
+
+    public E get(int index){
+
+    }
+
+    public void add(int index, E element){
         int lvl = randomLevel();
         if(lvl > MAX_LEVEL) {
             lvl = MAX_LEVEL;
         }
+        if(lvl > height){
 
-
-
-
+        }
     }
 
     private int randomLevel(){
@@ -40,14 +48,6 @@ public class SkipList<E> {
             lvl++;
 
         return lvl;
-    }
-
-    public E get(int index){
-
-    }
-
-    public void add(int index, E element){
-
     }
 
     public E remove(int index){
