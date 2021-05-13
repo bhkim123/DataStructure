@@ -232,7 +232,7 @@ public class BSTree<E> {
         return size;
     }
 
-    public static class Node<E>{
+    private static class Node<E>{
         E value;
         Node<E> left;
         Node<E> right;
