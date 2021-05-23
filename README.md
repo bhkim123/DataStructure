@@ -7,5 +7,5 @@
  ### Graph, Minimum Spanning Tree Algorithm
  ### AVL Tree
  ### Binary Search Tree
- ++ Skip List..
+ ### Skip List(Using Array)
 
